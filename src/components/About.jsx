@@ -6,7 +6,7 @@ function Count({to,suffix='+'}){
     let s=0;const t=setInterval(()=>{s+=Math.ceil(to/40);if(s>=to){s=to;clearInterval(t)}setN(s)},30)});o.observe(ref.current);return()=>o.disconnect()},[to])
   return <span ref={ref}>{n}{suffix}</span>}
 // TODO: replace these with your real numbers
-const stats=[[200,'Projects Completed'],[150,'Happy Clients'],[5,'Years of Experience'],[25,'Cities Served']]
+const stats=[[10,'Projects Completed'],[15,'Happy Clients'],[1,'Years of Experience'],[3,'Cities Served']]
 export default function About(){return(
 <section id="about" className="py-16 bg-light"><div className="max-w-7xl mx-auto px-4">
   <Heading title="About Us" sub="Tridev Enterprises delivers mechanical engineering, industrial safety products, CCTV security and networking under one roof, for factories, offices and institutions across India."/>

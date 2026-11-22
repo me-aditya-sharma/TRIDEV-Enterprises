@@ -1,7 +1,7 @@
 export const brand = { name:'TRIDEV ENTERPRISES', tagline:'Complete Engineering • Safety • Security Solutions',
  sub:'Engineering Excellence • Industrial Safety • Smart Security • Reliable Networking',
  footer:'Your Trusted Partner for Mechanical, Safety, CCTV & Networking Solutions',
- phone:'9779962125', person:'Umesh Prasad', email:'trideventerprises25@gmail.com', area:'All over India', wa:'919779962125' }
+ phone:'9779962125', person:'Umesh Prasad', email:'tridev.ent2026@gmail.com', area:'All over India', wa:'919779962125' }
 export const categories = [
  { id:'Mechanical Services', color:'#0B2A5B', icon:'Wrench', items:['Industrial Fabrication','Machine Installation & Commissioning','Conveyor Installation & Maintenance','Structure Fabrication & Erection','Pipe Fabrication & Installation','Welding (ARC, MIG, TIG)','Mechanical Maintenance (Preventive & Breakdown)','Equipment Shifting & Relocation','Shutdown & Turnaround Jobs','Tank & Vessel Fabrication','Machine Alignment & Levelling','Civil Support for Mechanical Projects'] },
  { id:'Safety Products', color:'#1E9E3A', icon:'ShieldCheck', items:['Safety Helmets','Safety Shoes','Safety Harness & Lanyards','Reflective Jackets','Safety Gloves','Safety Goggles & Face Shields','Ear Plugs & Ear Muffs','Respiratory Protection (Masks & Respirators)','Fire Extinguishers','Lockout Tagout (LOTO) Products','Safety Signages & Barricades','First Aid Kits'] },

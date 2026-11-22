@@ -9,7 +9,7 @@ export default function Navbar(){
   const cls=({isActive})=>`font-medium hover:text-accent ${isActive?'text-accent':''}`
   return(<header className={`fixed top-0 inset-x-0 z-50 bg-white ${sc?'shadow-md':''}`}>
     <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between" aria-label="Main">
-      <Link to="/" className="flex items-center gap-2"><img src="/logo.png" alt="Tridev Enterprises logo" className="h-11 w-auto"/>
+      <Link to="/" className="flex items-center gap-2"><img src="/logo.jpeg" alt="Tridev Enterprises logo" className="h-11 w-auto"/>
         <span className="font-head font-bold text-navy leading-tight">TRIDEV<br/><span className="text-accent text-xs tracking-widest">ENTERPRISES</span></span></Link>
       <ul className="hidden lg:flex gap-8 text-sm">{links.map(([l,to])=><li key={l}><NavLink end to={to} className={cls}>{l}</NavLink></li>)}</ul>
       <button onClick={()=>enquire()} className="hidden lg:block bg-accent text-white px-5 h-11 rounded-lg font-semibold hover:opacity-90">Get a Free Quote</button>
