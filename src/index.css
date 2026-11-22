@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme{--color-navy:#0B2A5B;--color-accent:#F26A1B;--color-safe:#1E9E3A;--color-net:#5B3FA8;--color-light:#F5F8FC;--color-ink:#0F172A;
+--font-head:Poppins,sans-serif;--font-body:Inter,sans-serif}
+html{scroll-behavior:smooth}body{font-family:var(--font-body);color:var(--color-ink);background:#fff;overflow-x:hidden}
+h1,h2,h3{font-family:var(--font-head)}section{scroll-margin-top:80px}
